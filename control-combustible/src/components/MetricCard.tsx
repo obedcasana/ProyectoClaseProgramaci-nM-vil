@@ -43,7 +43,8 @@ export default function MetricCard({
         <Text style={styles.unit}>{unit}</Text>
       </View>
 
-      {description ? <Text style={styles.description}>{description}</Text> : null} {/*Sólo se renderiza si existe*/}
+      {description ? <Text style={styles.description}>{description}</Text> : null} 
+      {/*Sólo se renderiza si existe*/}
     </View>
   );
 }

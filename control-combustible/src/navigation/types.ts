@@ -24,7 +24,7 @@ export type MainTabsParamList = {
 export type RootStackParamList = {
   Login: { prefilledEmail?: string } | undefined;
   MainTabs: {
-    screen?: keyof MainTabsParamList;
+    screen?: keyof MainTabsParamList; //Keyof equivale a "Dashboard" | "StationsTab" | "Maintenance"
     params?: MainTabsParamList[keyof MainTabsParamList];
   } | undefined;
 };
